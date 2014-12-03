@@ -1,16 +1,20 @@
-﻿<!DOCTYPE html>
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
 <head>
     <title>Hotel Motel</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/HomeStyle.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <div id="container">
         <div id="header">
             <div id="website_title">
-                <div id="title"> Hotel Motel </div>
-                <div id="salgon"> Najbolji hotel u Sarajevu</div>
+                <div id="title"> DBC Resort </div>
+                <div id="salgon"> Divine, Beautiful, Classy.</div>
             </div>
         </div>
         <!-- end of header -->
@@ -82,10 +86,6 @@
                                 <option>Dec</option>
                             </select>
                             <select name="year">
-                                <option>2010</option>
-                                <option>2011</option>
-                                <option>2012</option>
-                                <option>2013</option>
                                 <option>2014</option>
                                 <option>2015</option>
                                 <option>2016</option>
@@ -163,9 +163,9 @@
                             </select>
                         </div>
                         <div class="form_row">
-                            <label>Broj kreveta:</label>
+                            <label>Kreveti:</label>
                             <input class="inputfield" name="person" type="text" style="width: 30px; margin-right: 20px;" />
-                            <label>Broj soba:</label>
+                            <label>Sobe:</label>
                             <input class="inputfield" name="person" type="text" style="width: 30px;" />
                         </div>
                         <div class="cleaner_h20">&nbsp;</div>
@@ -194,18 +194,18 @@
                 <div class="content_right_section">
                     <div class="content_title_01">Welcome to hotel &amp; travel</div>
                     <img src="/Content/image_01.jpg" alt="" />
-                    <p>Ovo je nevjerovatno Hotel Motel.</p>
+                    <p>Ovo je nevjerovatni Hotel Motel.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum, urna eu feugiat ultricies, turpis leo tempor lacus, in vestibulum diam nisl sed lorem. </p>
                     <p>Napisaćemo nešto već o hotelu bla bla bla bla bla bla bla</p>
                 </div>
                 <div class="cleaner_h40">&nbsp;</div>
                 <div class="content_right_section">
                     <div class="content_title_01">Slike</div>
-                    <div class="gallery_box"> <img src="/Content/image_02.jpg" alt="" /> <a href="#">1</a> </div>
-                    <div class="gallery_box"> <img src="/Content/image_03.jpg" alt="" /> <a href="#">2</a> </div>
-                    <div class="gallery_box"> <img src="/Content/image_04.jpg" alt="" /> <a href="#">3</a> </div>
-                    <div class="gallery_box"> <img src="/Content/image_05.jpg" alt="" /> <a href="#">4</a> </div>
-                    <div class="gallery_box"> <img src="/Content/image_06.jpg" alt="" /> <a href="#">5</a> </div>
+                    <div class="gallery_box"> <img src="~/Content/image_02.jpg" alt="" /> <a href="#">1</a> </div>
+                    <div class="gallery_box"> <img src="~/Content/image_03.jpg" alt="" /> <a href="#">2</a> </div>
+                    <div class="gallery_box"> <img src="~/Content/image_04.jpg" alt="" /> <a href="#">3</a> </div>
+                    <div class="gallery_box"> <img src="~/Content/image_05.jpg" alt="" /> <a href="#">4</a> </div>
+                    <div class="gallery_box"> <img src="~/Content/image_06.jpg" alt="" /> <a href="#">5</a> </div>
                     <div class="cleaner_h20">&nbsp;</div>
                     <div class="rc_btn_02"><a href="#">Proširi</a></div>
                     <div class="cleaner">&nbsp;</div>
@@ -216,10 +216,9 @@
             <div class="cleaner">&nbsp;</div>
         </div>
         <div id="footer">
-            Copyright &copy; 2015 <a href="#"><strong>ETF Hotel Motel</strong></a>
+            Copyright &copy; 2015 <a href="#"><strong>DBC Resort</strong></a>
         </div>
         <!-- end of footer -->
     </div>
     <!-- end of container -->
 </body>
-
